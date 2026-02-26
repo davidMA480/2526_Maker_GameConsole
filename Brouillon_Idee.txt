@@ -1,0 +1,22 @@
+CPU:
+-Utilisation de la Raspberry Pi Zero 2W : pas beaucoup de consommation de courant + petite taille. En plus de ca, Retropie facilite la tache pour installer des jeux.
+
+Ecran : 
+-Taille idéale 3.5 pouces de diagonales.
+
+  Moyen de communication avec l'écran 
+    -SPI :  peu energivore mais trop lent en terme de rafraichissement de l'ecran et peu encombrant.
+    -HDMI : facile d'implémentation (juste le cable mini HDMI vers HDMI pour la raspberry pi Zero 2W)+ qualité d'image top et parfois l'audio aussi. Cependant, le cable gene (tres encombrant) et consomme pas mal de courant.
+
+
+    Solution : DPI : entre-deux. Il consomme tous les GPIO de la raspberry et est peu energivore. Probleme : plus de GPIO, mais possiblité de faire un pcb qui va contenir tous les controles qu'on reliera par cable USB a la rapsberry Pi zero 2w.
+    (réference d'écran : Waveshare 29.99)
+
+Batterie:
+-Batterie 2S2P conçu lors de la seance maker ----> peut etre probleme de taille (a voir) et aussi un buck pour readapter la tension.
+
+
+Audio : (  Optionnel : partie la moins importante de mon point de vue. Au pire on connecte des ecouteurs en Bluetooth :)  )
+  A cause de l'ecran je n'ai plus de GPIO disponible, donc j'aurais besoin d'intéragir encore avec le port USB. Sauf que l'USB est déja utilise par les controles.
+  Solution: sur le PCB, mettre d'abord quelque chose qui duplique le nombre de port (comme vu en TD Maker), puis utilse l'autre port pour integrer une puce audio.
+
