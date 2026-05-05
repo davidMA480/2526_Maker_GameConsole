@@ -14,9 +14,9 @@ Pour le projet, il faut d'abord concevoir le **boîtier** pour accueillir tout l
 J'ai réalisé plusieurs prototype sur Onshape pour les imprimere en 3D.
 
 
-![Onshape1](Maker_Onshape1.jpeg)
-![Onshape2](Maker_Onshape2.jpeg)
-
+![Onshape1](Maker_Onshape1.png)
+![Onshape2](Maker_Onshape2.png)
+![Onshape3](Maker_Onshape3.jpeg)
 
 
 
@@ -29,3 +29,11 @@ J'ai réalisé donc un PCB qui fait office de "manette".
 
 
 
+![Kicad_schematic](Maker_Kicad.png)
+![Kicad_PCB](Maker_PCB.png)
+
+
+
+
+
+Desolé mais je n'ai pas eu le temps pour faire autre chose et je n'ai pas reussi a finir la video
