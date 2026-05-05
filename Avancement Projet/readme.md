@@ -30,10 +30,12 @@ J'ai réalisé donc un PCB qui fait office de "manette".
 
 
 ![Kicad_schematic](Maker_Kicad.png)
-![Kicad_PCB](Maker_PCB.png)
+![Kicad_PCB](Maker_PCB.jpeg)
 
 
 
 
+## Conclusion
 
-Desolé mais je n'ai pas eu le temps pour faire autre chose et je n'ai pas reussi a finir la video
+
+Desolé mais je n'ai pas eu le temps pour faire chose et je n'ai pas reussi a finir la video.
